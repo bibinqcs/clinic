@@ -1,0 +1,22 @@
+{
+ "align_labels_right": 0, 
+ "creation": "2018-06-03 12:18:37.954391", 
+ "custom_format": 0, 
+ "disabled": 0, 
+ "doc_type": "School Health Service Report", 
+ "docstatus": 0, 
+ "doctype": "Print Format", 
+ "font": "Default", 
+ "format_data": "[{\"fieldname\": \"print_heading_template\", \"fieldtype\": \"Custom HTML\", \"options\": \"<div class=\\\"print-heading\\\">\\t\\t\\t\\t<h2>School Health Service Report<br><small>{{ doc.name }}</small>\\t\\t\\t\\t</h2></div>\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"date\", \"label\": \"Date\"}, {\"print_hide\": 0, \"fieldname\": \"month_of\", \"label\": \"Month of\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"academic_year\", \"label\": \"Academic Year\"}, {\"fieldtype\": \"Section Break\", \"label\": \"First Aid\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"label\": \"Custom HTML\", \"fieldname\": \"_custom_html\", \"options\": \"<b>First Aid:</b>\", \"fieldtype\": \"HTML\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"male\", \"label\": \"Male\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"female\", \"label\": \"Female\"}, {\"fieldtype\": \"Section Break\", \"label\": \"Medical\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"label\": \"Custom HTML\", \"fieldname\": \"_custom_html\", \"options\": \"<b>Medical Exam:</b>\", \"fieldtype\": \"HTML\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"m_male\", \"label\": \"Male\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"m_female\", \"label\": \"Female\"}, {\"fieldtype\": \"Section Break\", \"label\": \"Referral\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"label\": \"Custom HTML\", \"fieldname\": \"_custom_html\", \"options\": \"<b>Referral:</b>\", \"fieldtype\": \"HTML\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"r_male\", \"label\": \"Male\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"f_female\", \"label\": \"Female\"}, {\"fieldtype\": \"Section Break\", \"label\": \"Other\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"health_education\", \"label\": \"Health Education\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"communicable_disease\", \"label\": \"Communicable Disease\"}, {\"fieldtype\": \"Section Break\", \"label\": \"User\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"label\": \"Custom HTML\", \"fieldname\": \"_custom_html\", \"options\": \"<b>Prepared By</b><br>\\n<br>\\n{{doc.user_name}}\", \"fieldtype\": \"HTML\"}, {\"fieldtype\": \"Column Break\"}]", 
+ "idx": 0, 
+ "line_breaks": 0, 
+ "modified": "2018-06-03 12:30:40.082361", 
+ "modified_by": "Administrator", 
+ "module": "Clinic", 
+ "name": "Default Report", 
+ "owner": "Administrator", 
+ "print_format_builder": 1, 
+ "print_format_type": "Server", 
+ "show_section_headings": 0, 
+ "standard": "Yes"
+}
