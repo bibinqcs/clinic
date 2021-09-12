@@ -18,8 +18,8 @@ with open('clinic/__init__.py', 'rb') as f:
 setup(
 	name='clinic',
 	version=version,
-	description='App for clinic in Dac',
-	author='Qcs',
+	description='App for clinic in DAC',
+	author='QCS',
 	author_email='vivek@quarkcs.com',
 	packages=find_packages(),
 	zip_safe=False,
